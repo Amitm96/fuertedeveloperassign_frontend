@@ -26,7 +26,7 @@ const Login = () => {
             navigate("/")
         }
         else{
-            alert(res.message)
+            alert(res.msg)
         }
     }
     return (
